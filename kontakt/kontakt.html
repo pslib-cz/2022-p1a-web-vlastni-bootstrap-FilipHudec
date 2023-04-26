@@ -12,83 +12,88 @@
   <title>kontakt</title>
 </head>
 <body class="bg-light">
+ <div class="container-fluid p-0">
   <div class="container-fluid px-0 sticky-top">
     <header>
-      <div>
-        <nav class="navbar navbar-expand-md navbar-light bg-primary">
-          <div class="container-fluid justify-content-start px-0">
-            <a class="navbar-brand ms-3 me-2 fw-bolder" href="../index.html">Lidé pro Kapybary</a>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                  <a class="nav-link active" href="../index.html">Úvod</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="../galerie/galerie.html">Galerie</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="../kontakt/kontakt.html">Kontakt</a>
-                </li>
-              </ul>
-            </div>
-            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+      <nav class="navbar navbar-expand-md navbar-light bg-primary">
+        <div class="container-fluid justify-content-start px-0">
+          <a class="navbar-brand ms-3 me-2 fw-bolder" href="../index.html">Lidé pro Kapybary</a>
+          <button class="navbar-toggler ms-5 px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto" style="margin-left: 20px;">
+              <li class="nav-item">
+                <a class="nav-link active" href="../index.html">Úvod</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../galerie/galerie.html">Galerie</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../kontakt/kontakt.html">Kontakt</a>
+              </li>
+            </ul>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
   </div>
   <main>
-    <section>
-      <div class="container text-center mt-5">
+    <section class="my-5">
+      <div class="container text-center">
         <h1 class="fw-bolder">Kontakt</h1>
       </div>
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-6 col-sm-2">
+          <div class="col-lg-6 col-md-8 col-sm-12">
             <div class="form-group">
-              <label for="emailInput" class="col-form-label">E-mail</label> <input type="text" class="form-control" id="emailInput" placeholder="E-mail">
+              <label for="emailInput" class="col-form-label">E-mail</label>
+              <input type="text" class="form-control" id="emailInput" placeholder="E-mail">
             </div>
             <div class="form-group">
-              <label for="nameInput" class="col-form-label">Jméno a přijmení</label> <input type="text" class="form-control" id="nameInput" placeholder="Jméno Přijmení">
+              <label for="nameInput" class="col-form-label">Jméno a přijmení</label>
+              <input type="text" class="form-control" id="nameInput" placeholder="Jméno Přijmení">
             </div>
             <div class="form-group">
-              <label for="phoneInput" class="col-form-label">Telefonní číslo</label> <input type="text" class="form-control" id="phoneInput" placeholder="Telefonní číslo">
+              <label for="phoneInput" class="col-form-label">Telefonní číslo</label>
+              <input type="text" class="form-control" id="phoneInput" placeholder="Telefonní číslo">
             </div>
           </div>
         </div>
         <div class="row justify-content-center py-3">
-          <div class="col-md-6 col-sm-2">
+          <div class="col-lg-6 col-md-8 col-sm-12">
             <button type="button" class="btn bg-primary">Odeslat</button>
           </div>
         </div>
       </div>
     </section>
-  </main>
-  <footer class="fixed-bottom bg-white">
-    <div class="container py-3" style="max-width: 900px; max-height: 300px;">
-      <div class="row">
-        <div class="col-md-4">
-          <h3 class="fs-4">Sledujte nás na sociálních sítích</h3>
-          <div class="social-icons" style="font-size: 30px;">
-            <a href="#" class="me-3 ms-3"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="me-3"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="me-3"><i class="bi bi-instagram"></i></a>
+   </main>
+   <div class="footer-wrapper fixed-bottom">
+    <footer class="bg-white">
+      <div class="container py-3" style="max-width: 900px;">
+        <div class="row">
+          <div class="col-md-4">
+            <h3 class="fs-4">Sledujte nás na sociálních sítích</h3>
+            <div class="social-icons" style="font-size: 30px;">
+              <a href="#" class="me-3 ms-3"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="me-3"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="me-3"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <h3 class="fs-4">Kontaktujte nás</h3>
+            <p>Falešná, 420/69<br>
+            Faleš, Česká republika 420 69<br>
+            Phone: (+420) 123 456 789<br>
+            Email: info@lideprokapybary.com</p>
+          </div>
+          <div class="col-md-4 col-sm-12 col-lg-4 text-center mt-1">
+            <p>© 2023 Lidé pro Kapybary. Všechna práva vyhrazena.</p>
           </div>
         </div>
-        <div class="col-md-4">
-          <h3 class="fs-4">Kontaktujte nás</h3>
-          <p>Falešná, 420/69<br>
-          Faleš, Česká republika 420 69<br>
-          Phone: (+420) 123 456 789<br>
-          Email: info@lideprokapybary.com</p>
-        </div>
-        <div class="col-md-4 text-center mt-5">
-          <p>© 2023 Lidé pro Kapybary. Všechna práva vyhrazena.</p>
-        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
+ </div>
 </body>
 </html>
