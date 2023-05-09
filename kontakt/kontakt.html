@@ -48,27 +48,29 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6 col-md-8 col-sm-12">
-            <div class="form-group">
-              <label for="emailInput" class="col-form-label">E-mail</label>
-              <input type="text" class="form-control" id="emailInput" placeholder="E-mail">
-            </div>
-            <div class="form-group">
-              <label for="nameInput" class="col-form-label">Jméno a přijmení</label>
-              <input type="text" class="form-control" id="nameInput" placeholder="Jméno Přijmení">
-            </div>
-            <div class="form-group">
-              <label for="phoneInput" class="col-form-label">Telefonní číslo</label>
-              <input type="text" class="form-control" id="phoneInput" placeholder="Telefonní číslo">
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-center py-3">
-          <div class="col-lg-6 col-md-8 col-sm-12">
-            <button type="button" class="btn bg-primary">Odeslat</button>
+            <form>
+              <div class="form-group mb-3">
+                <label for="emailInput" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="emailInput" placeholder="example@example.com">
+              </div>
+              <div class="form-group mb-3">
+                <label for="nameInput" class="form-label">Jméno a přijmení</label>
+                <input type="text" class="form-control" id="nameInput" placeholder="Jan Novák">
+              </div>
+              <div class="form-group mb-3">
+                <label for="phoneInput" class="form-label">Telefonní číslo</label>
+                <input type="text" class="form-control" id="phoneInput" placeholder="+420 123 456 789">
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn bg-primary float-start">Odeslat</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </section>
+    
+        
    </main>
    <div class="footer-wrapper fixed-bottom">
     <footer class="bg-white border-top">
