@@ -65,4 +65,4 @@ Jednou ze zajímavých možností dnešní doby je vygenerování obsahu pomocí
      * [Craiyon](https://www.craiyon.com/)
  * [BlueWillow](https://www.bluewillow.ai/) - přes Discord - neomezené demo
 
- ### Odkaz na mojí stránku - https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-FilipHudec/index.html
+ ### Odkaz na moji stránku - https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-FilipHudec/index.html
